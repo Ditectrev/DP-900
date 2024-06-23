@@ -49,18 +49,6 @@
 - [ ] Azure HCMmtghi.
 - [x] Azure SQL Database.
 
-### Azure SQL managed instance supports cross-database queries.
-
-NO_ANWSER.
-
-### Azure SQL managed instance supports user-create backups.
-
-NO_ANWSER.
-
-### Azure SQL managed instance databases can be restored to SQL Server on an Azure virtual machine.
-
-NO_ANWSER.
-
 ### Extract, transform, and load (ETL) can reduce the transfer of  sensitive data to destination systems.
 
 - [ ] Yes.
@@ -170,20 +158,6 @@ NO_ANWSER.
 - [ ] As a partitioned row store by using Language-Integrated Query (LINQ).
 - [ ] As nodes and edges by using the Gremlin language.
 
-### Which setting can only be configured during the creation of an Azure Cosmos DB account?
-
-- [ ] Geo-redundancy.
-- [ ] Multi-region writes.
-- [ ] Production or non-reduction account type.
-- [x] API.
-
-### To configure an Azure Storage account to support both security at the folder level and atomic directory manipulation [...].
-
-- [x] Enable the hierarchical namespace.
-- [ ] Set Account kind to BlobStorage.
-- [ ] Set Performance to Premium.
-- [ ] Set Replication to Read-access geo-redundant storage (RA-GRS).
-
 ### Azure Data Studio can be used to query an Azure SQL database from a device that runs macOS.
 
 - [x] Yes.
@@ -205,13 +179,6 @@ NO_ANWSER.
 - [ ] Az scorage account creace.
 - [ ] Az cosmosdb creace.
 - [x] Az scorage concainer creace.
-
-### Which Azure service should you use?
-
-- [x] Azure Cosmos DB.
-- [ ] Azure Table storage.
-- [ ] Azure Files.
-- [ ] Azure Blob Storage.
 
 ### At which two levels can you set the throughput for an Azure Cosmos DB account? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
 
@@ -278,21 +245,30 @@ NO_ANWSER.
 - [ ] Hot.
 - [ ] Cool.
 
-### To configure an Azure Storage account to support both security at the folder level and atomic directory manipulation [...]
+### To configure an Azure Storage account to support both security at the folder level and atomic directory manipulation [...].
 
 - [x] Enable the hierarchical namespace.
 - [ ] Set Account kind to BlobStorage.
 - [ ] Set Performance to Premium.
 - [ ] Set Replication to Read-access geo-redundant storage (RA-GRS).
 
-### Match the security components to the appropriate scenarios.
+### [...] Prevent access to an Azure SQL database from another network.
 
-![Question 48](images/question48.jpg)
+- [ ] Authentication.
+- [x] Firewall.
+- [ ] Encryption.
 
-- [ ] Prevent access to an Azure SQL database from another network: Authentication. Support Azure Active Directory (Azure AD) sign-ins to an Azure SQL database: Encryption. Ensure that sensitive data never appears as plain text in an Azure SQL database: Firewall.
-- [ ] Prevent access to an Azure SQL database from another network: Firewall. Support Azure Active Directory (Azure AD) sign-ins to an Azure SQL database: Encryption. Ensure that sensitive data never appears as plain text in an Azure SQL database: Authentication.
-- [x] Prevent access to an Azure SQL database from another network: Firewall. Support Azure Active Directory (Azure AD) sign-ins to an Azure SQL database: Authentication. Ensure that sensitive data never appears as plain text in an Azure SQL database: Encryption.
-- [ ] Prevent access to an Azure SQL database from another network: Encryption. Support Azure Active Directory (Azure AD) sign-ins to an Azure SQL database: Authentication. Ensure that sensitive data never appears as plain text in an Azure SQL database: Firewall.
+### [...] Support Azure Active Directory (Azure AD) sign-ins to an Azure SQL database.
+
+- [x] Authentication.
+- [ ] Firewall.
+- [ ] Encryption.
+
+### [...] Ensure that sensitive data never appears as plain text in an Azure SQL database.
+
+- [ ] Authentication.
+- [ ] Firewall.
+- [x] Encryption.
 
 ### You can use Azure Data Studio to query a Microsoft SQL Server big data cluster.
 
@@ -309,12 +285,12 @@ NO_ANWSER.
 - [x] Yes.
 - [ ] No.
 
-### A relational database is appropriate for scenarios that involve a high volume of [...]
+### A relational database is appropriate for scenarios that involve a high volume of [...].
 
-- [ ] Changes to realtionships between entites.
-- [ ] Geographically distributed writes.
-- [x] Transactional writes.
-- [ ] Writes that have varying data structures.
+- [ ] changes to realtionships between entites.
+- [ ] geographically distributed writes.
+- [x] transactional writes.
+- [ ] writes that have varying data structures.
 
 ### The Azure Cosmos DB API in configured separately for each database in an Azure Cosmos DB account.
 
@@ -347,14 +323,24 @@ NO_ANWSER.
 - [x] UPDATE.
 - [ ] CREATE.
 
-### Match the types of data stores to the appropriate scenarios.
+### Match the types of data stores to the appropriate scenarios. [...] Application users and their and default language.
 
-![Question 58](images/question58.jpg)
+- [ ] Graph.
+- [ ] Object.
+- [x] Key/value.
 
-- [ ] Application users and their and default language: Object. Medical images and their associated metadata: Key/value. Employee data that shows the realtionships between employees: Graph.
-- [x] Application users and their and default language: Key/value. Medical images and their associated metadata: Object. Employee data that shows the realtionships between employees: Graph.
-- [ ] Application users and their and default language: Graph. Medical images and their associated metadata: Object. Employee data that shows the realtionships between employees: Key/value.
-- [ ] Application users and their and default language: Graph. Medical images and their associated metadata: Key/value. Employee data that shows the realtionships between employees: Object.
+### Match the types of data stores to the appropriate scenarios. [...] Medical images and their associated metadata.
+
+- [ ] Graph.
+- [x] Object.
+- [ ] Key/value.
+
+### Match the types of data stores to the appropriate scenarios. [...] Employee data that shows the realtionships between employees.
+
+- [x] Graph.
+- [ ] Object.
+- [ ] Key/value.
+
 
 ### Which type of non-relational data store supports a flexible schema, stores data as JSON files, and stores the all the data for an entity in the same document?
 
@@ -383,20 +369,32 @@ NO_ANWSER.
 - [x] Yes.
 - [ ] No.
 
-### Match the types of workloads the appropriate scenario.
+### Match the types of workloads the appropriate scenario. [...] Data for a product catalog vail be loaded every 12 hours to a data warehouse.
 
-![Question 64](images/question64.jpg)
+- [ ] Batch.
+- [ ] Micro-batch
+- [ ] Streaming.
+- [x] Workload Type.
 
-- [x] Data for a product catalog vail be loaded every 12 hours to a data warehouse: Batch. Data for online purchases will be loaded to a Gata warehouse as the purchases occur: Streaming. Updates to inventory data will be loaded to adata warehouse every 1,000 transactions: Micro-batch.
-- [ ] Data for a product catalog vail be loaded every 12 hours to a data warehouse: Streaming. Data for online purchases will be loaded to a Gata warehouse as the purchases occur: Batch. Updates to inventory data will be loaded to adata warehouse every 1,000 transactions: Micro-batch.
-- [ ] Data for a product catalog vail be loaded every 12 hours to a data warehouse: Streaming. Data for online purchases will be loaded to a Gata warehouse as the purchases occur: Micro-batch. Updates to inventory data will be loaded to adata warehouse every 1,000 transactions: Streaming.
-- [ ] Data for a product catalog vail be loaded every 12 hours to a data warehouse: Micro-batch. Data for online purchases will be loaded to a Gata warehouse as the purchases occur: Streaming. Updates to inventory data will be loaded to adata warehouse every 1,000 transactions: Batch.
+### Match the types of workloads the appropriate scenario. [...] Data for online purchases will be loaded to a Gata warehouse as the purchases occur.
+
+- [ ] Batch.
+- [ ] Micro-batch
+- [ ] Streaming.
+- [x] Workload Type.
+
+### Match the types of workloads the appropriate scenario. Updates to inventory data will be loaded to adata warehouse every 1,000 transactions.
+
+- [ ] Batch.
+- [ ] Micro-batch
+- [ ] Streaming.
+- [x] Workload Type.
 
 ### Your company needs to implement a relational database in Azure. The solution must minimize ongoing maintenance.  Which Azure service should you use?
 
-- [ ] Azure HDInsightB.
-- [x] Azure SQL DatabaseC.
-- [ ] Azure Cosmos DBD.
+- [ ] Azure HDInsight.
+- [x] Azure SQL Database.
+- [ ] Azure Cosmos DB.
 - [ ] SQL Server on Azure virtual machines.
 
 ### Which Azure SQL offering supports automatic database scaling and automatic pausing of the database during inactive periods?
@@ -435,306 +433,216 @@ NO_ANWSER.
 - [x] Communicate the significance of data.
 - [ ] Implement machine learning to predict future values.
 - [ ] Consistently implement business logic across reports.
-"
-### Which three actions are used when performing diagnostic analytics?A . ","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"r PaaS et
 
-laaS
-Development tools, Servers and storage Networking Data center physical
-database management, firewalls/security plant/building
+### Your company recently reported sales from the third quarter. You have the chart shown in the following exhibit. Which type of analysis is shown for the fourth quarter?
 
-business analytics
+![Question 51](images/question51.jpg)
 
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### What should you use?A . ","
-- [ ] A . Synapse pipelinesB . ","
-- [ ] B . a Synapse SQL poolC . ","
-- [x] C . Synapse LinkD . ","
-- [ ] D . Synapse Studio","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"A v__ isa chart of colored rectangles. The size of the rectangles represent
+- [x] Predictive.
+- [ ] Prescription.
+- [ ] Descriptive.
+- [ ] Diagnostic
 
-line chart
-matrix
+### Which three actions are used when performing diagnostic analytics?
 
-scatter
-treemap
+- [x] Identify data anomalies. Collect anomaly-related data. Discover relationships and trends that explain anomalies.
+- [ ] Identify data anomalies. Predict when anomalies are likely to recur. Use analytical tools such as decision trees and regression.
+- [ ] Apply serf-learning loops to draw inferences from anomalies. Predict when anomalies are likely to recur. Use analytical tools such as decision trees and regression.
+- [ ] Identify data anomalies. Use machine learning to find patterns in large datasets. Discover relationships and trends that explain anomalies.
 
-the relative value of each item. The chart can be hierarchical, displaying data as a set of
-rectangles nested within the main rectangle.
+### Platform as a service (PaaS) database offerings in Azure require less seup and configuration effort than infrastructure as a service (IaaS) database offering [...].
 
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### What should you use?A . ","
-- [x] A . Microsoft SQL Server Data Tools (SSDT)B . ","
-- [ ] B . Microsoft SQL Server Management Studio (SSMS)C . ","
-- [ ] C . Azure DatabricksD . ","
-- [ ] D . Azure Data Studio","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### What are two benefits of platform as a service (PaaS) relational database offerings in Azure, such as Azure SQL Database? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.A . ","
-- [ ] A . complete control over backup and restore processesB . ","
-- [x] B . access to the latest featuresC . ","
-- [ ] C . in-database machine learning servicesD . ","
-- [ ] D . reduced administrative effort for managing the server infrastructure","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which statement is an example of Data Definition Language (DDL)?A . ","
-- [ ] A . SELECTB . ","
-- [ ] B . INSERTC . ","
-- [ ] C . DELETED . ","
-- [x] D . DROP","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"Statements
+- [x] Yes.
+- [ ] No.
 
-Azure Databricks is an Apache Spark-based collaborative
-analytics platform.
+### Platform as a service (PaaS) database offerings in Azure provide administrators with the ability to control adn update the operating system version [...].
 
-Azure Analysis Services is used for transactional workloads.
+- [x] Yes.
+- [ ] No.
 
-Azure Data Factory orchestrates data integration workflows.
+### All platform as a service (PaaS) database offerings in Azure can be paused to reduce version [...].
 
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which statement is an example of Data Manipulation Language (DML)?A . ","
-- [ ] A . REVOKEB . ","
-- [ ] B . DISABLEC . ","
-- [ ] C . CREATED . ","
-- [x] D . UPDATE","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which Azure storage solution provides native support for POSIX-compliant access control lists (ACLs)?A . ","
-- [ ] A . Azure Queue storageB . ","
-- [x] B . Azure Data Lake StorageC . ","
-- [ ] C . Azure table storageD . ","
-- [ ] D . Azure Files","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### What is a possible cause of the issue?A . ","
-- [x] A . a database-level firewallB . ","
-- [ ] B . role-based access control (RSAC)C . ","
-- [ ] C . Dynamic Host Configuration Protocol (DHCP)D . ","
-- [ ] D . Domain Name Service (DNS)       ","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which setting can only be configured during the creation of an Azure Cosmos DB account?A . ","
-- [ ] A . geo-redundancyB . ","
-- [ ] B . multi-region writesC . ","
-- [ ] C . production or non-reduction account typeD . ","
-- [x] D . API","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which Azure service should you use?A . ","
-- [x] A . Azure Cosmos DBB . ","
-- [ ] B . Azure Table storageC . ","
-- [ ] C . Azure FilesD . ","
-- [ ] D . Azure Blob Storage","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"Answer Area
+- [ ] Yes.
+- [x] No.
 
-|w is a virtual table that contains content defined by a query
+### You need to perform hybrid transactional and analytical processing (HTAP) queries against Azure Cosmos DB data sources by using Azure Synapse Analytics. What should you use?
 
-A heap
+- [ ] Synapse pipelines.
+- [ ] A Synapse SQL pool.
+- [x] Synapse Link.
+- [ ] Synapse Studio.
 
-A stored procedure
-Aview
+### Select the answer that correctly completes the sentence. A [...] in a chcat of colored rectangles. The size of the rectangles represent the relative value of each item. The chart can be hierarchical, displaying data as a set of rectangles nest within the main rectangle.
 
-An index
+- [ ] line chart.
+- [ ] matrix.
+- [ ] scatter.
+- [x] treemap.
+
+### You need to design and model a database by using a graphical tool that supports project-oriented offline database development. What should you use?
+
+- [x] Microsoft SQL Server Data Tools (SSDT).
+- [ ] Microsoft SQL Server Management Studio (SSMS).
+- [ ] Azure Databricks.
+- [ ] Azure Data Studio.
+
+### What are two benefits of platform as a service (PaaS) relational database offerings in Azure, such as Azure SQL Database? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [ ] Complete control over backup and restore processes.
+- [x] Access to the latest features.
+- [ ] In-database machine learning services.
+- [x] Reduced administrative effort for managing the server infrastructure.
+
+### Which statement is an example of Data Definition Language (DDL)?
+
+- [ ] SELECT.
+- [ ] INSERT.
+- [ ] DELETE.
+- [x] DROP.
+
+### Azure Databricks is an Apache Spark-based collaborative analytics platform.
+
+- [x] Yes.
+- [ ] No.
+
+### Azure Analysis Services is used for transactional workloads.
+
+- [ ] Yes.
+- [x] No.
+
+### Azure Data Factory orchestrates data integration workflows.
+
+- [x] Yes.
+- [ ] No.
+
+### Which statement is an example of Data Manipulation Language (DML)?
+
+- [ ] REVOKE.
+- [ ] DISABLE.
+- [ ] CREATE.
+- [x] UPDATE.
+
+### Which Azure storage solution provides native support for POSIX-compliant access control lists (ACLs)?
+
+- [ ] Azure Queue storage.
+- [x] Azure Data Lake Storage.
+- [ ] Azure table storage.
+- [ ] Azure Files.
+
+### What is a possible cause of the issue?
+
+- [x] A database-level firewall.
+- [ ] role-based access control (RSAC).
+- [ ] Dynamic Host Configuration Protocol (DHCP).
+- [ ] Domain Name Service (DNS).
+
+### Which setting can only be configured during the creation of an Azure Cosmos DB account?
+
+- [ ] Geo-redundancy.
+- [ ] Multi-region writes.
+- [ ] Production or non-reduction account type.
+- [x] API.
+
+### You have an application that runs on Windows and requires across to a mapped drive. Which Azure service should you use?
+
+- [x] Azure Cosmos DB.
+- [ ] Azure Table storage.
+- [ ] Azure Files.
+- [ ] Azure Blob Storage.
+
+### [...] is a virtual table that contains content definey by a querty.
+
+- [ ] A heap.
+- [ ] A stored procedure.
+- [x] A view.
+- [ ] An index.
+
+### What is the primary purpose of a data warehouse?
+
+- [ ] To provide answers to complex queries that rely on data from multiple sources.
+- [ ] To provide transformation services between source and target data stores.
+- [x] To provide read-only storage of relational and non-relational historical data.
+- [ ] To provide storage for transactional line-of-business (LOB) applications.
+
+### Which storage solution supports access control lists (ACLs) at the file and folder level?
+
+- [x] Azure Data Lake Storage.
+- [ ] Azure Cosmos DB.
+- [ ] Azure Queue storage.
+- [ ] Azure Blob storage.
+
+### Azure SQL managed instance supports cross-database queries.
+
+- [x] Yes.
+- [ ] No.
+
+### Azure SQL managed instance supports user-created backups.
+
+- [ ] Yes.
+- [x] No.
+
+### Azure SQL managed instance databases can be restored to SQL Server on a Azure virtual machine.
+
+- [x] Yes.
+- [ ] No.
+
+### A representation of data structures within data stores.
+
+- [ ] Dataset.
+- [ ] Linked service.
+- [ ] Mapping data flow.
+- [ ] Pipeline.
+- [x] Component.
+
+### The information used to connect to external resources.
+
+- [ ] Dataset.
+- [ ] Linked service.
+- [ ] Mapping data flow.
+- [ ] Pipeline.
+- [x] Component.
+
+### A logical grouping of activities that performs a unit of work and can be scheduled.
+
+- [ ] Dataset.
+- [ ] Linked service.
+- [ ] Mapping data flow.
+- [ ] Pipeline.
+- [x] Component.
+
+### Which Azure Data Factory component provides the compute environment for activities?
+
+- [ ] A linked service.
+- [x] An integration runtime.
+- [ ] A control flow
+- [ ] A pipeline
+
+### Application users and their default language.
+
+- [ ] Graph.
+- [ ] Object.
+- [x] Key/value.
+
+### Medical images and their associated metadata.
+
+- [ ] Graph.
+- [x] Object.
+- [ ] Key/value.
+
+### Employee data that shows the relationship between employees.
+
+- [x] Graph.
+- [ ] Object.
+- [ ] Key/value.
 
 
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### What is the primary purpose of a data warehouse?A . ","
-- [ ] A . to provide answers to complex queries that rely on data from multiple sourcesB . ","
-- [ ] B . to provide transformation services between source and target data storesC . ","
-- [x] C . to provide read-only storage of relational and non-relational historical dataD . ","
-- [ ] D . to provide storage for transactional line-of-business (LOB) applications","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which storage solution supports access control lists (ACLs) at the file and folder level?A . ","
-- [x] A . Azure Data Lake StorageB . ","
-- [ ] B . Azure Cosmos DBC . ","
-- [ ] C . Azure Queue storageD . ","
-- [ ] D . Azure Blob storage","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"Statements Yes
-Azure SQL managed instance supports cross-database queries, fo!
-Azure SQL managed instance supports user-created backups. °
+### You have an application that runs on Windows and requires access to a mapped drive. Which Azure service should you use?
 
-1
-Azure SQL managed instance databases can be restored to SQL Server on an Azure virtua To}
-machine. bd
+- [x] Azure Files.
+- [ ] Azure Blob storage.
+- [ ] Azure Cosmos DB.
+- [ ] Azure Table storage.
 
-© lo! o
-
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"Components Answer Area
-
-Dataset Dataset A representation of data structures within
-
-a L _| data stores
-
-Sar —— The information used to connect to externat
-resources
-
-Alogical grouping of activities that performs
-
-— i aa 2 unit of work and can be scheduled
-
-= |
-
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which type of data store should you use?A . ","
-- [ ] A . Key/valueB . ","
-- [x] B . GraphC . ","
-- [ ] C . DocumentD . ","
-- [ ] D . columnar","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which type of data store should you use?A . ","
-- [x] A . graphB . ","
-- [ ] B . key/valueC . ","
-- [ ] C . documentD . ","
-- [ ] D . columnar","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which Azure Data Factory component provides the compute environment for activities?A . ","
-- [ ] A . a linked serviceB . ","
-- [x] B . an integration runtimeC . ","
-- [ ] C . a control flowD . ","
-- [ ] D . a pipeline","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"Data Store Lypes Answer Area
-
-Graph Key/value
-Object Object
-Key/value Graph
-
-Application users and their default language
-Medical images and their associated metadata
-
-Employee data that shows the relationships between employees
-
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"
-### Which Azure service should you use?A . ","
-- [x] A . Azure FilesB . ","
-- [ ] B . Azure Blob storageC . ","
-- [ ] C . Azure Cosmos DBD . ","
-- [ ] D . Azure Table storage","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"Analytics lypes Answer Area
 
 Cognitive Diagnostic
 Diagnostic Predictive
@@ -743,21 +651,30 @@ Predictive
 
 Prescriptive
 
-Why did sales increase last month?
-How do J allocate my budget to buy different inventory items?
+### Why did sales increase last month?
 
-Which people are mentioned in a company's business documents?
+- [ ] Cognitive.
+- [x] Diagnostic.
+- [ ] Descriptive.
+- [ ] Predictive.
+- [ ] Prescriptive.
 
-","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME","
-- [ ] PLEASE_DELETE_ME"
-"Services Answer Area
+### How do I allocate my budget to buy different inventory items?
+
+- [ ] Cognitive.
+- [ ] Diagnostic.
+- [ ] Descriptive.
+- [x] Predictive.
+- [ ] Prescriptive.
+
+### Which people are mentioned in a company's business documents?
+
+- [x] Cognitive.
+- [ ] Diagnostic.
+- [ ] Descriptive.
+- [ ] Predictive.
+- [ ] Prescriptive.
+
 
 Preprocess
 & model
