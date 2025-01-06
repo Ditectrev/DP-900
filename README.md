@@ -146,8 +146,8 @@
 
 ### Azure Data Studio can be used to query an Azure SQL database from a device that runs macOS.
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
 
 ### Microsoft SQL Server Management Studio (SSMS) enables users to create and use SQL notebooks.
 
@@ -559,6 +559,8 @@
 
 ### Match the Azure data factory components to the appropriate descriptions.
 
+![Question 91](images/question91.jpg)
+
 - [x] A representation of data structures within data stores: Dataset. The information used to connect to external resources: Linked service. A logical grouping of activities that performs a unit of work and can be scheduled: Pipeline.
 - [ ] A representation of data structures within data stores: Linked service. The information used to connect to external resources: Dataset. A logical grouping of activities that performs a unit of work and can be scheduled: Mapping data flow.
 - [ ] A representation of data structures within data stores: Pipeline. The information used to connect to external resources: Mapping data flow. A logical grouping of activities that performs a unit of work and can be scheduled: Dataset.
@@ -811,7 +813,7 @@
 ### Your company needs to design a database that illustrates the relationships between utilization levels of individual network devices across a local area network. Which type of data store should you use?
 
 - [ ] graph.
-- [ ] key/value.
+- [x] key/value.
 - [ ] document.
 - [ ] columnar.
 
@@ -856,8 +858,8 @@
 
 ### A processing step within an Azure Data Factory pipeline is an activity.
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
 
 ### A bar chart showing year-to date sales by regionis an example of which type of analytics?
 
@@ -999,3 +1001,270 @@
 - [ ] Extract Transform Load (ETL): Azure Table storage. Data warehouse: Azure Cosmos DB.
 - [x] Extract Transform Load (ETL): Azure Data Factory. Data warehouse: Azure Synapse Analytics.
 - [ ] Extract Transform Load (ETL): Azure Synapse Analytics. Data warehouse: Azure Table storage.
+
+### What is a benefit of the Azure Cosmos DB Table API as compared to Azure Table storage?
+
+- [ ] Supports partitioning.
+- [ ] Provides resiliency if art Azure region fads.
+- [ ] Provides a higher storage capacity.
+- [x] Supports a multi-master model.
+
+### Which statement is an example of Data Manipulation Language (DML)?
+
+- [x] INSERT.
+- [ ] DISABLE.
+- [ ] ALTER.
+- [ ] DROP.
+
+### An extract, transform, and load (ETL) process requires [...].
+
+- [ ] a matching schema in the data source and the data target.
+- [ ] a target data store powerful enough to transform data.
+- [ ] data that is fully processed before being loaded to the target data store.
+- [x] that the data target be a relational database.
+
+### Relational data is stored in [...].
+
+- [ ] A file system as unstructured data.
+- [x] A hierarchal folder structure.
+- [ ] A tabular form of rows and columns.
+- [ ] Comma-separated value (CSV) files.
+
+### When you create an Azure SQL database, which account can always connect to the database?
+
+- [ ] The Azure Active director/ (Azure AO) account that created the database.
+- [ ] The Azure Active Directly Azure AD) administrator account.
+- [ ] The sa account.
+- [x] The server admin login account of the logical server.
+
+### Descriptive analytics tells you [...].
+
+- [ ] What is most likely to occur in the future.
+- [x] What occured in the past.
+- [ ] Which actions you can perform to affect outcomes.
+- [ ] Why something occured in the past.
+
+### You have a transactional application that stem data in an Azure SQL managed instance. When should you implement a read-only database replica?
+
+- [x] You need to generate reports without affecting the transactional workload.
+- [ ] You need to audit the transactional application.
+- [ ] You need to implement high availability in the event of a regional outage
+- [ ] You need to improve the recovery point objective (RPO).
+
+### Relational data uses [...] to enforce relationships between different tables.
+
+- [ ] collections.
+- [ ] columns.
+- [x] keys.
+- [ ] partitions.
+
+### An extract,load, and transform (ELT) process requires [...]
+
+- [ ] a data pipeline that includes a transformation engine.
+- [ ] separate transformation engine.
+- [ ] a target data store powerful enough to transform data.
+- [x] data that is fully processed before being loaded to the target data store.
+
+### Match the Azure services to appropriate requirements. [...] Output data to Parquet format.
+
+- [x] Azure Data Factory.
+- [ ] Azure Synapse Analytics.
+- [ ] Azure Data Lake Storage.
+- [ ] Azure SQL Database.
+
+### Match the Azure services to appropriate requirements. [...] Store data that is in Parquet format.
+
+- [ ] Azure Data Factory.
+- [ ] Azure Synapse Analytics.
+- [x] Azure Data Lake Storage.
+- [ ] Azure SQL Database.
+
+### Match the Azure services to appropriate requirements. [...] Persist a tabular representation of data that is stored in Parquet format.
+
+- [ ] Azure Data Factory.
+- [x] Azure Synapse Analytics.
+- [ ] Azure Data Lake Storage.
+- [ ] Azure SQL Database.
+
+### The massively parallel processing (MPP) engine of Azure Synapse Analytics [...].
+
+- [ ] distributes processing across compute nodes.
+- [ ] distributes processing across control nodes.
+- [x] redirects client connections across compute nodes.
+- [ ] redirects client connections across control nodes.
+
+### Normalization involves eliminating relationships between database tables.
+
+- [ ] Yes.
+- [x] No.
+
+### Normalizing a database reduces data redundancy.
+
+- [x] Yes.
+- [ ] No.
+
+###  Normalization improves data integrity.
+
+- [x] Yes.
+- [ ] No.
+
+### Which two types of replica can you us for the storage account?
+
+- [x] Read-access geo-redundant storage (RA_GRS).
+- [ ] Zone-redundant storage (ZRS).
+- [x] Geo-redundant storage (GRS).
+- [ ] Locally-redundant storage (LRS).
+
+### Your company has a reporting solution that has paginated reports. The reports query a dimensional model in a data warehouse. Which type of processing does the reporting solution use?
+
+- [ ] Stream processing.
+- [ ] Online Transaction Processing (OLTP).
+- [ ] Batch processing.
+- [x] Online Analytical Processing (OLAP).
+
+### Match the types of workloads the appropriate scenario. Updates to inventory data will be loaded to adata warehouse every 1,000 transactions.
+
+- [x] Batch.
+- [ ] Streaming.
+
+### What are two characteristics of real-time data processing?
+
+- [x] Data is processed as it is created.
+- [x] Low latency is expected.
+- [ ] High latency acceptable.
+- [ ] Data is processed periodically.
+
+### Platform as a service (PaaS) database offerings in Azure provide administrators with the ability to control adn update the operating system version [...].
+
+- [ ] Yes.
+- [x] No.
+
+### All platform as a service (PaaS) database offerings in Azure can be paused to reduce costs.
+
+- [x] Yes.
+- [ ] No.
+
+### A graphical tool for managing Azure SQL databases and viewing SQL execution plans.
+
+- [ ] Azure Data Studio.
+- [ ] Microsoft SQL Server Data Tools (SSDT).
+- [x] Microsoft SQL Server Management Studio (SSMS).
+- [ ] Microsoft Visual Studio Code.
+
+### A Microsoft SQL Server extension that supports connections to SQL Server and provides a rich editing experience for T-SQL.
+
+- [ ] Azure Data Studio.
+- [ ] Microsoft SQL Server Data Tools (SSDT).
+- [ ] Microsoft SQL Server Management Studio (SSMS).
+- [x] Microsoft Visual Studio Code.
+
+### A lightweight editor that can run on-demand SQL queries and view and save results as text. JSON, or Microsoft Excel files.
+
+- [x] Azure Data Studio.
+- [ ] Microsoft SQL Server Data Tools (SSDT).
+- [ ] Microsoft SQL Server Management Studio (SSMS).
+- [ ] Microsoft Visual Studio Code.
+
+### A development tool for building Azure SQL databases, Microsoft SQL Server relational databases, SQL Server Analysis Services (SSAS) data models. SQL Server Integration Services (SSIS) packages, and SQL Server Reporting Services (SSRS) reports.
+
+- [ ] Azure Data Studio.
+- [x] Microsoft SQL Server Data Tools (SSDT).
+- [ ] Microsoft SQL Server Management Studio (SSMS).
+- [ ] Microsoft Visual Studio Code.
+
+### Your company if designing an application that will write a high volume of JSON data and will have an application-defined schema. Which type of data store should you use?
+
+- [x] Key/value.
+- [ ] Document.
+- [ ] Graph.
+- [ ] Columnar.
+
+### Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process?
+
+![Question 185](images/question185.jpg)
+
+- [ ] Extract: The data warehouse. Load: A standalone data analysis tool. Transform: The CRM system.
+- [ ] Extract: The data warehouse. Load: The CRM system. Transform: A standalone data analysis tool.
+- [x] Extract: The CRM system. Load: The data warehouse. Transform: A standalone data analysis tool.
+- [ ] Extract: The CRM system. Load: A standalone data analysis tool. Transform: The data warehouse.
+
+### You have a table named Sales that contains the following data. You need to query the table to return the average sales amount day. The output must produce the following results. How should you complete the query?
+
+![Question 186_1](images/question186_1.jpg)
+![Question 186_2](images/question186_2.jpg)
+![Question 186_3](images/question186_3.jpg)
+
+- [ ] CREATE.
+- [x] GROUP BY.
+- [ ] ORDER BY.
+- [x] SELECT.
+
+### What are two uses of data visualization?
+
+- [x] Represent trends and patterns over time.
+- [ ] Communicate the significance of data.
+- [x] Implement machine learning to predict future values.
+- [ ] Consistently implement business logic across reports.
+
+### Which two Azure services can be used to provision Spark clusters?
+
+- [x] Azure Databricks.
+- [ ] Azure Log Analytics.
+- [ ] Azure Time Series Insights.
+- [x] Azure HDinsight.
+
+### To configure an Azure Storage account to support both security at the folder level and atomic directory manipulation [...].
+
+- [ ] Enable the hierarchical namespace.
+- [x] Set Account kind to BlobStorage.
+- [ ] Set Performance to Premium.
+- [ ] Set Replication to Read-access geo-redundant storage (RA-GRS).
+
+### Match the types of data to the appropriate Azure data services. To answer, drag the appropriate data types from the column on the left to its service on the right. Each data type may be used once, more than once, or not at all. NOTE: Each correct match is worth one point.
+
+- [x] Box 1: Image files, Box 2: Azure Cosmos DB Gremlin API, Box 3: Key-value pairs.
+- [ ] Box 1: Azure Cosmos DB Gremlin Box 2: Image files, Box 3: Key-value pairs.
+- [ ] Box 1: Key-value pairs, Box 2: Image files, Box 3: Azure Cosmos DB Gremlin.
+
+### What are two benefits of platform as a service (PaaS) relational database offerings in Azure, such as Azure SQL Database?
+
+- [ ] Complete control over backup and restore processes.
+- [x] Access to the latest features.
+- [x] In-database machine learning services.
+- [ ] Reduced administrative effort for managing the server infrastructure.
+
+### Azure Synapse Analytics scales storage and compute independently.
+
+- [x] Yes.
+- [ ] No.
+
+### Azure Synapse Analytics can be paused to reduce compute costs.
+
+- [x] Yes.
+- [ ] No.
+
+### An Azure Synapse Analytics data warehouse has fixed storage capacity.
+
+- [ ] Yes.
+- [x] No.
+
+### In batch processing [...].
+
+- [ ] data is always insertes one row at a time.
+- [ ] data is processed in real-time.
+- [x] latency is expected.
+- [ ] processing car only execute serially.
+
+### Your company needs to ensure that in Azure virtual machine can connect to Azure SQL databases without exposing the databases to the internet. What should you use?
+
+- [ ] Azure DNS.
+- [ ] Azure Application Gateway.
+- [x] Azure Private link.
+- [ ] Azure Traffic Manager.
+
+### You have a SQL query that combines customer data and order data. The query includes calculated columns. You need to persist the SQL query so that other users can use the query. What should you create?
+
+- [ ] a table.
+- [ ] an index.
+- [ ] scalar function.
+- [x] a view.
